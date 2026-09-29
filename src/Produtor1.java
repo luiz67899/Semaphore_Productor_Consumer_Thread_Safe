@@ -35,8 +35,6 @@ public class Produtor1 extends Thread {
            this.armazenamento.add(imprimir);
            this.ocupado.release();
            try { this.sleep (100); } catch (Exception erro) {}
-
-
         }
 
 
